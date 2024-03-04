@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deleting Selected Nodes</title>
+		<script src="deleteSpecificNodeScript.js"></script>
+	</head>
+		<body>
+			<form id="theForm">
+				<p>
+					<textarea id="textArea" rows="5" cols="30">
+					</textarea>
+				</p>
+				<p>
+					<label>
+						<input type="radio" name="nodeAction">Add Node
+					</label>
+					<label>
+						<input type="radio" name="nodeAction">Delete Node
+					</label>
+				</p>
+				Paragraph #: <select id="grafCount"></select> 
+				<input type="submit" value="Submit">
+			</form>
+			<div id="modifiable"> </div>
+	</body>
+</html> 

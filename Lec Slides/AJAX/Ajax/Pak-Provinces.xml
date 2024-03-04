@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<choices xml:lang="EN">
+  <item><label>Khyber Pakhtunkhwa </label><value>KPK</value></item>
+  <br>
+  <item><label>Punjab </label><value>PB</value></item>
+  <br>
+  <item><label>Balochistan </label><value>BA</value></item>
+  <br>
+  <item><label>Sindh </label><value>SD</value></item>
+  <br>
+  <item><label>Azad Jammu Kashmir </label><value>AJK</value></item>
+  <br>
+  <item><label>Gilit Baltistan </label><value>GB</value></item>
+</choices>

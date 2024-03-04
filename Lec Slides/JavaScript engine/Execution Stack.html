@@ -1,0 +1,28 @@
+<script>
+
+var globalExecutionContext = "added";
+
+function one()
+{
+    var fOne = "1nd Function o/p1";
+    console.log(fOne);
+    debugger;
+    two();
+    console.log("Lets see when i will be on console.");
+} 
+
+function two()
+{
+    debugger;
+    console.log("2nd function o/p2");
+    three();
+}
+function three()
+{
+    debugger;
+    console.log("3rd function o/p3");
+}
+debugger;
+one();
+
+</script>

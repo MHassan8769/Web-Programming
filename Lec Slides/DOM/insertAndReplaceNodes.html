@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Deleting Selected Nodes</title>
+		<script src="insertAndReplaceNodesScript.js"></script>
+	</head>
+		<body>
+			<form id="theForm">
+				<p>
+					<textarea id="textArea" rows="5" cols="30">
+					</textarea> 
+				</p>
+				<p>
+					<label>
+						<input type="radio" name="nodeAction">Add Node
+					</label>
+					<label>
+						<input type="radio" name="nodeAction">Delete Node
+					</label>
+					<label>
+						<input type="radio" name="nodeAction">Insert Before Node
+					</label>
+					<label>
+						<input type="radio" name="nodeAction">Replace Node
+					</label>
+				</p>
+				Paragraph #: <select id="grafCount"></select> 
+				<input type="submit" value="Submit">
+			</form>
+			<div id="modifiable"> </div>
+	</body>
+</html> 

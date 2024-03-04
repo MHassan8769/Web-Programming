@@ -1,0 +1,23 @@
+<script>
+    var a = "Im in Global Scope...";
+
+    function first () 
+    {       //console.log(c);
+        var b = "Im in First Func...";
+        second();
+
+        function second () 
+        {
+            var c = "Im in Second Func...";
+            console.log(a + b + c);
+            three();
+        }
+    }
+    function three (){
+        var d = "Im in Three Func...";
+        console.log(a +  d);
+    }
+
+    first();
+
+</script>

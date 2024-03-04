@@ -1,0 +1,23 @@
+$(document).ready(function () {
+	
+	$("a").hover(function(){
+		$(this).css({
+			"color": $(this).attr("id"),
+			"background-color": "silver"
+		});
+	});
+	
+	$("a").mouseout(function(){
+		$(this).css({
+			"color": "white",
+			"background-color": "silver"
+		});
+	});
+	
+	$("a").click(function(evt){
+		$("#colorMe").css({
+			"color": $(this).attr("id")
+		});
+		evt.preventDefault();
+	});
+});
