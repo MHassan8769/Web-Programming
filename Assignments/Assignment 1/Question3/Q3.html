@@ -9,7 +9,6 @@
 </head>
 <body>
     <form id="jobApplicationForm">
-        <!-- Personal Information Section -->
         <fieldset>
             <legend>Personal Information</legend>
             <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
@@ -22,14 +21,12 @@
             <input type="text" id="zip" name="zip" placeholder="ZIP Code" required pattern="\d{5}" title="Enter a valid 5-digit ZIP code">
         </fieldset>
 
-        <!-- Resume and Cover Letter Section -->
         <fieldset>
             <legend>Resume and Cover Letter</legend>
             <input type="file" id="resume" name="resume" required>
             <textarea id="coverLetter" name="coverLetter" rows="4" placeholder="Cover Letter" required></textarea>
         </fieldset>
 
-        <!-- Education Section -->
         <fieldset>
             <legend>Education</legend>
             <select id="educationLevel" name="educationLevel" required>
@@ -43,7 +40,6 @@
             <input type="text" id="major" name="major" placeholder="Major/Area of Study" required>
             <input type="number" id="gradYear" name="gradYear" placeholder="Graduation Year" required min="1900" max="2100">
             </fieldset>
-                <!-- Employment History Section -->
     <fieldset>
         <legend>Employment History</legend>
         <input type="text" id="jobTitle" name="jobTitle" placeholder="Previous Job Title" required>
@@ -52,14 +48,12 @@
         <textarea id="jobResponsibilities" name="jobResponsibilities" rows="3" placeholder="Job Responsibilities" required></textarea>
     </fieldset>
 
-    <!-- Skills Section -->
     <fieldset>
         <legend>Skills</legend>
         <input type="text" id="skills" name="skills" placeholder="Relevant Skills" required>
         <input type="text" id="certifications" name="certifications" placeholder="Certifications" required>
     </fieldset>
 
-    <!-- Availability Section -->
     <fieldset>
         <legend>Availability</legend>
         <input type="date" id="startDate" name="startDate" placeholder="Start Date" required>
@@ -75,7 +69,6 @@
         </label>
     </fieldset>
 
-    <!-- References Section -->
     <fieldset>
         <legend>References</legend>
         <input type="text" id="referenceName" name="referenceName" placeholder="Reference Name" required>
@@ -83,13 +76,11 @@
         <input type="text" id="referenceRelationship" name="referenceRelationship" placeholder="Relationship to Applicant" required>
     </fieldset>
 
-    <!-- Additional Questions Section -->
     <fieldset>
         <legend>Additional Questions</legend>
         <textarea id="additionalQuestions" name="additionalQuestions" rows="3" placeholder="Why do you want to work for this company?" required></textarea>
     </fieldset>
 
-    <!-- Consent and Agreement Section -->
     <fieldset>
         <legend>Consent and Agreement</legend>
         <label>

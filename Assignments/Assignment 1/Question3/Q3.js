@@ -23,14 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function renderTable(dataArray, tableContainer) {
-    // Clear previous table
     tableContainer.innerHTML = '';
 
-    // Create a new table
     let table = document.createElement('table');
     table.className = 'application-data-table';
     
-    // Generate table header
     let thead = table.createTHead();
     let headerRow = thead.insertRow();
     for (let key in dataArray[0]) {
@@ -39,7 +36,6 @@ function renderTable(dataArray, tableContainer) {
         headerRow.appendChild(th);
     }
 
-    // Generate table body
     let tbody = table.createTBody();
     dataArray.forEach(item => {
         let row = tbody.insertRow();
@@ -50,6 +46,5 @@ function renderTable(dataArray, tableContainer) {
         }
     });
 
-    // Append the newly created table to the container
     tableContainer.appendChild(table);
 }
